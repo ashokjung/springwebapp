@@ -37,7 +37,11 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>4.1.6.RELEASE</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.hibernate.javax.persistence</groupId>
